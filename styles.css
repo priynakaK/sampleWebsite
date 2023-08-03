@@ -10,15 +10,50 @@ header,
 nav,
 main,
 footer {
-  border: 1px solid white;
-  margin: 5px;
 }
+main {
+  background-color: grey;
 
+  height: 400px;
+}
+nav {
+  width: 350px;
+  border: 3px solid grey;
+  border-radius: 9%;
+  text-align: center;
+}
+article,
+nav {
+  text-align: center;
+}
+a:hover {
+  color: gray;
+  font-size: 20px;
+}
+nav div li {
+  display: inline-block;
+  width: 20% auto;
+}
 nav li a {
   text-decoration: none;
   color: white;
-  display: inline-block;
-  width: 20%;
+
   padding: 5px;
   margin: 4px auto;
+}
+header div img {
+  width: 70px;
+}
+header #left {
+  border: 0.5px solid grey;
+  font-size: 5px;
+  text-align: center;
+}
+header div {
+  display: inline-block;
+  border-radius: 10%;
+}
+header #head_line {
+  display: inline;
+  font-size: 25px;
 }
