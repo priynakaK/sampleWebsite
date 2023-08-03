@@ -1,59 +1,6 @@
-body {
-  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
-    'Lucida Sans', Arial, sans-serif;
-  color: white;
-  margin: 0px;
-  padding: 0px;
-  background-image: url('https://cdn4.vectorstock.com/i/1000x1000/64/23/lion-head-logo-icon-on-black-background-vector-26566423.jpg');
+header {
+  background-color: red;
 }
-header,
-nav,
-main,
-footer {
-}
-main {
-  background-color: grey;
-
-  height: 400px;
-}
-nav {
-  width: 350px;
-  border: 3px solid grey;
-  border-radius: 9%;
-  text-align: center;
-}
-article,
-nav {
-  text-align: center;
-}
-a:hover {
-  color: gray;
-  font-size: 20px;
-}
-nav div li {
-  display: inline-block;
-  width: 20% auto;
-}
-nav li a {
-  text-decoration: none;
-  color: white;
-
-  padding: 5px;
-  margin: 4px auto;
-}
-header div img {
-  width: 70px;
-}
-header #left {
-  border: 0.5px solid grey;
-  font-size: 5px;
-  text-align: center;
-}
-header div {
-  display: inline-block;
-  border-radius: 10%;
-}
-header #head_line {
-  display: inline;
-  font-size: 25px;
+.logo{
+  width: 30px;
 }
